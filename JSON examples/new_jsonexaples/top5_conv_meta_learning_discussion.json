@@ -1,0 +1,36 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello what do you know from memory about me talking about meta learning"
+    },
+    {
+      "role": "assistant",
+      "content": "```\nThis block is not supported on your current device yet.\n```\n\nFrom memory I have this, and the search filled in more detail. Here's a consolidated picture:\n\n**From stored memory:** Your SKILL.md for generating Obsidian-compatible lecture notes was updated to embed meta-learning callouts in every major section. That was the key architectural change to your note-generation workflow.\n\n**From the conversations found:** There were two main threads.\n\nThe first (late March) was a substantive conversation where you had a realisation that COMP1860 was functioning as a meta-learning vehicle — showing you how complexity is built from simple primitives through principled tradeoffs, and that this pattern (axioms → composition → abstraction → repeat) appears across domains including Islamic jurisprudence. You then wanted to deliberately embed this into your revision notes rather than just observe it passively.\n\nThis led to designing a two-layer note structure: the standard technical explanation plus a `> **Meta:**` callout with four questions — *why does this exist, what does it generalise to, what does it teach about building complex systems, and what breaks it?* You then had this integrated into your SKILL.md so the note-generation process would include it automatically.\n\nThe second conversation (end of March) touched on military strategy as a meta-learning lens — Boyd's OODA loop mapping to iterative learning cycles, Sun Tzu's terrain principle mapping to exam strategy, Clausewitz's friction as a planning reality check — with the honest verdict that it's a useful supplementary lens but the adversarial framing doesn't transfer well.\n\nIs there a specific angle on this you're picking back up?"
+    },
+    {
+      "role": "user",
+      "content": "Is this something i should familiairse myself more from my position"
+    },
+    {
+      "role": "assistant",
+      "content": "Honest answer: **probably not a priority right now.**\n\nHere's why.\n\nYou're in Easter revision, exams are coming, and your position is that of someone who has already designed a sophisticated meta-learning system — the four-question callout, the SKILL.md integration, the Obsidian workflow. The architecture is in place. The bottleneck isn't understanding meta-learning better, it's executing the revision itself.\n\nThere's also a pattern worth naming directly: you have a documented tendency toward framework-building before shipping. Spending time going deeper on meta-learning theory right now would fit that pattern almost perfectly — intellectually satisfying, feels productive, but is actually a layer of abstraction away from what matters (passing your exams in a few weeks).\n\nThe meta-learning insight you had about COMP1860 was genuinely useful *because* it changed a concrete behaviour — how you structure notes. More reading about meta-learning won't change your behaviour further at this point; you've already operationalised it"
+    },
+    {
+      "role": "user",
+      "content": "Is this something i should familiairse myself more from my position, in terms of content i just watch or listen to at times when im not able to work. On the side"
+    },
+    {
+      "role": "assistant",
+      "content": "Honest answer: probably not a priority right now.\n\nHere's the reasoning. Meta-learning as a *concept* you study is a level of abstraction removed from what you're actually doing, which is already quite sophisticated — you've built structured note systems, active recall workflows, the four-question meta layer, and you're consciously using COMP1860 as a reasoning training ground. You're not lacking in meta-learning awareness; you're already practising it.\n\nThe risk of consuming meta-learning content on the side is that it feeds the planning-and-framework tendency you've explicitly flagged as something to counteract. It can feel productive while being a form of productive procrastination — learning about learning instead of learning.\n\nThe content that would actually serve your \"background listening\" time better, given where you are, is probably:\n\n**Islamic intellectual content** — this is your stated primary anchor, and podcast-format content from scholars fits naturally into low-attention windows (commuting, gym, cooking). This is the one area where passive consumption genuinely compounds toward something you've said matters most.\n\n**Domain knowledge adjacent to your interests** — AI/labour market, geopolitics if the publication concept stays live, economics. Things that build the actual *knowledge base* your frameworks will eventually operate on.\n\nThe meta-learning piece is already embedded in how you work. You don't need to study it — you need to keep executing the system you've built and let it do its job.\n\nWhat kind of listening slots are you actually trying to fill? That might sharpen the recommendation."
+    },
+    {
+      "role": "user",
+      "content": "Just youtube videos they feel quite dead right noq"
+    },
+    {
+      "role": "assistant",
+      "content": "That's worth paying attention to — \"dead\" is a signal, not just a mood.\n\nA few honest questions worth sitting with: is it the content itself that feels flat, or is there something broader going on — exam pressure building, a sense of being in a grind phase, or just general low energy from the revision period? Because the fix is different depending on the cause.\n\nIf it's genuinely just that your YouTube diet has gone stale, the simplest move is a hard refresh — unwatch everything you currently have queued and actively seek out one or two people whose *way of thinking* you find genuinely compelling, not just their topic. The best YouTube content for background consumption has a voice and perspective you want to spend time with, almost regardless of subject matter.\n\nGiven what I know about your interests, the kind of thing that might actually land:\n\n- Scholars or thinkers who engage seriously with contemporary questions from an Islamic lens — longer form conversations, not just clips\n- People thinking seriously about AI, technology and society from an angle that isn't just hype or doomerism\n- History and geopolitics if it's presented analytically rather than as infotainment\n\nBut honestly — if YouTube feels dead across the board right now, the answer might not be better YouTube. It might be that your mind needs something genuinely different in those slots. Music, a walk without anything playing, a podcast that's more conversational and less dense.\n\nWhat kind of videos have you been watching that feel flat? That's probably the most useful starting point."
+    }
+  ]
+}

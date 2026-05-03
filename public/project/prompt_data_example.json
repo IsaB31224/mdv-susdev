@@ -1,0 +1,70 @@
+{
+    "functions": [
+        {
+            "type": "function",
+            "function": {
+                "name": "calculate_solar_efficiency",
+                "description": "Calculates the potential energy output of a solar panel array based on location and panel type.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "latitude": {
+                            "type": "number",
+                            "description": "The north-south coordinate of the installation site."
+                        },
+                        "panel_type": {
+                            "type": "string",
+                            "description": "The material used in the panels.",
+                            "enum": [
+                                "monocrystalline",
+                                "polycrystalline",
+                                "thin-film"
+                            ]
+                        },
+                        "efficiency_rating": {
+                            "type": "number",
+                            "description": "The manufacturer's efficiency percentage as a decimal."
+                        }
+                    },
+                    "required": [
+                        "latitude",
+                        "panel_type"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "query_inventory",
+                "description": "Check if specific components are in stock at a nearby warehouse.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "part_id": {
+                            "type": "string",
+                            "description": "The unique SKU for the component."
+                        },
+                        "quantity_needed": {
+                            "type": "integer",
+                            "description": "The amount required for the current project."
+                        }
+                    },
+                    "required": [
+                        "part_id"
+                    ]
+                }
+            }
+        }
+    ],
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are an expert renewable energy consultant specialized in solar infrastructure. Use the provided tools to assist the user with technical calculations."
+        },
+        {
+            "role": "user",
+            "content": "I'm planning a project in Salford. I need to know the efficiency of monocrystalline panels at latitude 53.48 and check if we have 50 panels (SKU: SOL-MC-400) in stock."
+        }
+    ]
+}
